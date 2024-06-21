@@ -22,8 +22,7 @@ const ScrollingData: scrollingDatas[] = [
       heading: "Javeriya Ahsan 💫",
       para: "Empowering Brands to Thrive Authentically on Social Media 💡 Organic Growth Strategist 📈 Social Media Management | Branding and Designing .",
     },
-    about:
-      "Your smile is your 𝗟𝗼𝗴𝗼,Your personality is your 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗖𝗮𝗿𝗱",
+    about: "Your smile is your 𝗟𝗼𝗴𝗼,Your personality is your 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗖𝗮𝗿𝗱",
     img: img2,
   },
 ];

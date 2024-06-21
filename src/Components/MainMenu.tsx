@@ -1,20 +1,21 @@
-import mainImg from "../img/main.jpg";
 import PermMediaIcon from "@mui/icons-material/PermMedia";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import FeedIcon from "@mui/icons-material/Feed";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import ScrollingData from "./MainData";
 import { scrollingDatas } from "./Type";
 import { MainPost } from "./MainPost";
+import { context } from "../Context/FormContext";
 
 export const MainMenu = () => {
+  const {img} = useContext(context);
   const [data] = useState<scrollingDatas[]>(ScrollingData);
   return (
     <div className="relative w-[50%]">
       <div className="w-[555px] h-[118px] bg-white pt-3 px-4 rounded-lg  border-gray-300 border">
         <div className="flex justify-between text-center gap-2">
           <img
-            src={mainImg}
+            src={img}
             alt="personImg"
             className="w-[50px] rounded-[50%]"
           />

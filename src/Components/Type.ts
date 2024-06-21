@@ -15,3 +15,8 @@ export interface scrollingDatas  {
     about:string,
     img:string
 }
+
+export interface formType {
+    fName:string,
+    lName:string
+}
